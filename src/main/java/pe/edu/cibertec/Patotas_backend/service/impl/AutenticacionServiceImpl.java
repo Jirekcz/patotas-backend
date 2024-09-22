@@ -35,6 +35,7 @@ public class AutenticacionServiceImpl implements AutenticacionService {
             }
 
         } catch (IOException e) {
+            datosUsuario = null;
             throw new IOException(e);
         }
 
